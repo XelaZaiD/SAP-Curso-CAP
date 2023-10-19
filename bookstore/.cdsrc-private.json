@@ -1,0 +1,19 @@
+{
+  "requires": {
+    "db": {
+      "binding": {
+        "type": "cf",
+        "apiEndpoint": "https://api.cf.us10-001.hana.ondemand.com",
+        "org": "23584a8ctrial",
+        "space": "dev",
+        "instance": "bookstore-Hana",
+        "key": "bookstore-Hana-key",
+        "resolved": false
+      },
+      "kind": "hana",
+      "vcap": {
+        "name": "db"
+      }
+    }
+  }
+}
